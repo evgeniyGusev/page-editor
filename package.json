@@ -1,0 +1,39 @@
+{
+	"name": "admin-panel",
+	"version": "1.0.0",
+	"description": "Admin panel",
+	"author": "Evgeniy Gusev",
+	"private": false,
+	"scripts": {
+		"dev": "nuxt",
+		"build": "nuxt build",
+		"start": "nuxt start",
+		"generate": "nuxt generate",
+		"lint": "eslint --fix --ext .js,.vue *",
+		"prettier": "npm run prettier:js && npm run prettier:vue && npm run prettier:json",
+		"prettier:js": "prettier --write \"**/*.*\"",
+		"prettier:vue": "prettier --write \"**/*.vue\"",
+		"prettier:json": "prettier --write \"**/*.json\""
+	},
+	"dependencies": {
+		"@nuxtjs/style-resources": "^1.2.0",
+		"lodash.throttle": "^4.1.1",
+		"nanoid": "^3.1.23",
+		"nuxt": "^2.0.0",
+		"sass": "^1.36.0",
+		"typograf": "^6.12.1",
+		"vuesax": "^4.0.1-alpha.25"
+	},
+	"devDependencies": {
+		"@nuxtjs/eslint-config": "^2.0.0",
+		"@nuxtjs/eslint-module": "^1.0.0",
+		"babel-eslint": "^10.0.1",
+		"eslint": "^6.1.0",
+		"eslint-config-prettier": "^6.10.0",
+		"eslint-plugin-nuxt": ">=0.4.2",
+		"eslint-plugin-prettier": "^3.1.2",
+		"node-sass": "^4.14.1",
+		"prettier": "^1.19.1",
+		"sass-loader": "^8.0.2"
+	}
+}

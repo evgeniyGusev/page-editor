@@ -1,8 +1,9 @@
 export default {
-	mode: 'static',
+	mode: 'universal',
 	server: {
 		port: 3000
 	},
+	target: 'static',
 	/*
 	 ** Headers of the page
 	 */

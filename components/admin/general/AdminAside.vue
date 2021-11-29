@@ -32,10 +32,10 @@ export default {
 		getSidebarItems() {
 			return [
 				{
-					id: 'admin',
+					id: 'index',
 					text: 'Главная',
 					to: {
-						path: '/admin'
+						path: '/'
 					}
 				},
 				{

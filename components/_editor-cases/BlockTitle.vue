@@ -37,19 +37,11 @@ export default {
 	letter-spacing: 0.01em;
 }
 
-@media screen and (max-width: $tablet-break) {
-	.caseTitle {
-		font-size: 18px;
-		line-height: 32px;
-		margin-bottom: 40px;
-	}
-}
-
 .dark {
-	color: $gray-9;
+	color: grey;
 }
 
 .light {
-	color: $gray-1;
+	color: grey;
 }
 </style>

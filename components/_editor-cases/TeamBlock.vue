@@ -100,7 +100,6 @@ export default {
 		font-weight: normal;
 		font-size: 12px;
 		line-height: 24px;
-		font-family: $OpenSans;
 		display: flex;
 		flex-wrap: wrap;
 
@@ -112,7 +111,6 @@ export default {
 
 		&__item {
 			width: 50%;
-			// border: 1px solid blue;
 			display: flex;
 			flex-direction: row;
 
@@ -143,51 +141,6 @@ export default {
 			font-weight: normal;
 			font-size: 16px;
 			line-height: 30px;
-		}
-	}
-}
-
-@media screen and (max-width: $desktop-break) {
-	.teamBlock {
-		font-weight: normal;
-		font-size: 12px;
-		line-height: 24px;
-		font-family: $OpenSans;
-		display: flex;
-		flex-wrap: wrap;
-
-		&__txt-flex {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-		}
-		&__item {
-			width: 100%;
-			// border: 1px solid blue;
-			display: flex;
-			flex-direction: row;
-			&:nth-child(odd) {
-				padding: 30px 0;
-			}
-			&:nth-child(even) {
-				padding: 30px 0;
-			}
-		}
-	}
-}
-@media screen and (max-width: $tablet-break) {
-	.teamBlock {
-		font-weight: normal;
-		font-size: 12px;
-		line-height: 24px;
-		font-family: $OpenSans;
-		display: flex;
-		flex-wrap: wrap;
-
-		&__image {
-			width: 70px;
-			height: 70px;
-			margin-right: 30px;
 		}
 	}
 }

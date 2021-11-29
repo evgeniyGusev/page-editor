@@ -52,19 +52,4 @@ ul {
 		box-sizing: border-box;
 	}
 }
-@media screen and (max-width: $desktop-width) {
-	ul {
-		li {
-			padding: 0 0px 0 24px;
-		}
-	}
-}
-
-@media screen and (max-width: $tablet-break) {
-	ul {
-		li {
-			padding: 0 0px 0 30px;
-		}
-	}
-}
 </style>

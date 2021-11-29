@@ -41,10 +41,4 @@ export default {
 	width: 100%;
 	height: auto;
 }
-
-@media screen and (max-width: $desktop-width) {
-	.txt {
-		max-width: unset;
-	}
-}
 </style>

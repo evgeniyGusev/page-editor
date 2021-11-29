@@ -3,7 +3,7 @@
 		<div class="main__Light">
 			<div class="main__row">
 				<div class="main__social">
-					<SocialLinks />
+					иконки
 				</div>
 				<div class="main__info">
 					<div class="crumb">
@@ -46,14 +46,9 @@
 
 <script>
 import editorMixin from '@/mixins/editor';
-import SocialLinks from '~/components/_common/SocialLinks.vue';
 
 export default {
 	name: 'MainHeader',
-
-	components: {
-		SocialLinks,
-	},
 
 	mixins: [editorMixin],
 
@@ -75,8 +70,8 @@ export default {
 	computed: {
 		breadcrumbles() {
 			return [
-				{ link: 'https://outofcloud.ru/', text: 'Главная' },
-				{ link: 'https://outofcloud.ru/cases', text: 'Кейсы' },
+				{ link: '#', text: 'Главная' },
+				{ link: '#', text: 'Страницы' },
 				{
 					text: this.title
 				}
@@ -98,7 +93,7 @@ export default {
 		width: 50%;
 		display: flex;
 		justify-content: flex-end;
-		background: $gray-8;
+		background: grey;
 	}
 	&__row {
 		width: 720px;
@@ -148,11 +143,11 @@ export default {
 						cursor: pointer;
 						font-size: 14px;
 						line-height: 22px;
-						color: $gray-5;
+						color: grey;
 						text-decoration: none;
 						:hover {
-							transition: $transition;
-							color: $gray-4;
+							transition: all .2s;
+							color: grey;
 						}
 					}
 				}
@@ -291,11 +286,11 @@ export default {
 						cursor: pointer;
 						font-size: 14px;
 						line-height: 22px;
-						color: $gray-5;
+						color: grey;
 						text-decoration: none;
 						:hover {
-							transition: $transition;
-							color: $gray-4;
+							transition: all .2s;
+							color: grey;
 						}
 					}
 				}

@@ -130,35 +130,4 @@ export default {
 		color: #8395ad;
 	}
 }
-@media screen and (max-width: 1150px) {
-	.results {
-		flex-direction: column;
-		&__item {
-			width: 100%;
-			align-items: center;
-			&--accent {
-				color: #2af2ff;
-				font-weight: bold;
-				border-right: 2px solid rgba(131, 149, 173, 0.16);
-				text-align: right;
-				padding: 0 13px 0 0;
-				.pred {
-					display: inline-block;
-					font-size: 16px;
-				}
-
-				.number {
-					display: inline-block;
-					font-size: 36px;
-				}
-				.times {
-					display: inline-block;
-				}
-			}
-		}
-		&__text {
-			width: 60%;
-		}
-	}
-}
 </style>

@@ -33,10 +33,4 @@ export default {
 	line-height: 1.3;
 	color: black;
 }
-
-@media screen and (max-width: $desktop-width) {
-	.txt {
-		max-width: unset;
-	}
-}
 </style>

@@ -9,7 +9,4 @@ export default {
 };
 </script>
 <style lang="scss">
-.editor-page {
-	font-family: $OpenSans;
-}
 </style>

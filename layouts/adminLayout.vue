@@ -23,7 +23,6 @@ export default {
 	grid-template-columns: 2fr 10fr;
 	min-height: 100vh;
 	background-color: #f6f6f6;
-	font-family: $OpenSans;
 
 	.content {
 		padding: 20px;

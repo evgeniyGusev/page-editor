@@ -30,11 +30,11 @@ export default {
 
 <style lang="scss" scoped>
 .darkBg {
-	color: $gray-9;
+	color: grey;
 }
 
 .lightBg {
-	color: $gray-1;
+	color: grey;
 }
 * {
 	box-sizing: border-box;
@@ -56,17 +56,12 @@ ul {
 			display: block;
 			width: 8px;
 			height: 8px;
-			background-color: $primary-1;
+			background-color: dodgerblue;
 			left: -30px;
 			top: 50%;
 			transform: translateY(-50%);
 			border-radius: 50%;
 		}
-	}
-}
-@media screen and (max-width: $desktop-width) {
-	ul {
-		width: 100%;
 	}
 }
 </style>

@@ -14,7 +14,6 @@ module.exports = {
 		'max-len': 0,
 		'no-console': 'warn',
 		'vue/no-v-html': 0,
-		// "unicorn/number-literal-case": 0,
 		'no-unused-vars': 'warn'
 	}
 };

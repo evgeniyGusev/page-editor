@@ -1,5 +1,5 @@
 <template>
-	<div class="ooc">
+	<div class="app">
 		<header class='header'>
 			Header
 		</header>
@@ -12,17 +12,8 @@
 	</div>
 </template>
 <script>
-import HeaderMenu from '~/components/_common/HeaderMenu.vue';
-import HeaderBurger from '~/components/_common/HeaderBurger.vue';
-import FooterItem from '~/components/_common/FooterItem.vue';
-import BaseIconClips from '~/components/_base/BaseIconClips.vue';
 export default {
-	components: {
-		HeaderBurger,
-		HeaderMenu,
-		FooterItem,
-		BaseIconClips
-	}
+	name: 'DefaultLayout',
 };
 </script>
 <style lang="scss">

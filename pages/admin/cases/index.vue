@@ -100,7 +100,6 @@
 	</div>
 </template>
 
-
 <script>
 import { nanoid } from "nanoid";
 import AdminConfirm from "~/components/admin/general/AdminConfirm";

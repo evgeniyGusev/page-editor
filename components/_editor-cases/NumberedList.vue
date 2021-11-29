@@ -59,33 +59,9 @@ ol {
 		position: absolute;
 		left: 24px;
 		font-weight: 800;
-		color: $primary-3;
+		color: dodgerblue;
 		content: counter(my-counter);
 		counter-increment: my-counter;
-	}
-}
-@media screen and (max-width: $desktop-width) {
-	ol {
-		li {
-			padding: 0 0 0 50px;
-			&::before {
-				left: 25px;
-				font-weight: 800;
-			}
-		}
-	}
-	ul {
-		li {
-			padding: 0 0 0 24px;
-		}
-	}
-}
-
-@media screen and (max-width: $tablet-break) {
-	ul {
-		li {
-			padding: 0 0px 0 30px;
-		}
 	}
 }
 </style>

@@ -99,7 +99,6 @@ export default {
 
 			Object.keys(this.component.styles)
 				.forEach((key) => {
-					console.log(this.component.rules)
 					const element = this.component.rules.find((el) => el.prop === key);
 					const postfix = element && element.postfix ? element.postfix : '';
 
@@ -215,7 +214,6 @@ export default {
 					});
 				});
 			} else {
-				console.log('мы тут');
 				this.$saveData({
 					prop: this.component.editorData.imageUrl ? 'imageUrl' : 'images',
 					value: this.component.editorData.imageUrl ? '' : [],
